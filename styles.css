@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d25ec1;
+    color: #333;
+    padding-top: 50px;
+}
+
+header {
+    background-color: #ba14bab6;
+    color: #eff7ee;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #b885ac;
+    color: rgb(117, 85, 105);
+}
+
+#about, #projects, #contact {
+    background-color: #a8619e;
+}
+
+.project-card {
+    background-color: #c97c80;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #e41e1e;
+}
+
+form button {
+    background-color: #eda5d1;
+    color: rgb(134, 55, 158);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
